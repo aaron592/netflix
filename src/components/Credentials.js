@@ -24,7 +24,7 @@ function Credentials(){
    }
 
    function register(){
-      fetch("https://aaron592.github.io/react_netflix_files/user/register",{
+      fetch("https://netflix22.herokuapp.com/user/register",{
          method:"POST",
          headers:{
             "Content-Type":"application/json"
@@ -45,7 +45,7 @@ function Credentials(){
 
 
    function login(){
-      fetch("https://aaron592.github.io/react_netflix_files/user/login",{
+      fetch("https://netflix22.herokuapp.com/user/login",{
          method:"POST",
          headers:{
             "Content-Type":"application/json"
