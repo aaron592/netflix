@@ -24,7 +24,7 @@ function Credentials(){
    }
 
    function register(){
-      fetch("https://github.com/aaron592/react_netflix_files/edit/main/user/register",{
+      fetch("https://aaron592.github.io/react_netflix_files/user/register",{
          method:"POST",
          headers:{
             "Content-Type":"application/json"
@@ -45,7 +45,7 @@ function Credentials(){
 
 
    function login(){
-      fetch("https://github.com/aaron592/react_netflix_files/edit/main/user/login",{
+      fetch("https://aaron592.github.io/react_netflix_files/user/login",{
          method:"POST",
          headers:{
             "Content-Type":"application/json"
